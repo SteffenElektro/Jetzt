@@ -1,0 +1,17 @@
+{
+  "name": "netlify-sems-langsdorf-pwa",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "netlify dev",
+    "build": "cd frontend && npm install && npm run build",
+    "serve": "netlify dev",
+    "deploy": "netlify deploy --build --prod"
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.17.1"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
